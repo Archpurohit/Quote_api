@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1c1c1c;
+  background-image: url('../../quote_machine/public/zeus.jpg');
+  background-size: cover;
+  background-position:  center top;
+}
+
+.quote {
+  width: 400px;
+  padding: 20px;
+  background-color: #40057c;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+}
+
+.quote p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.quote .btnContainer {
+  margin-top: 20px;
+}
+
+.quote .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #0f0043;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.quote .btn:hover {
+  background-color: #0056b3;
+}
